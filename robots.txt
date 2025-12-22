@@ -1,0 +1,13 @@
+# robots.txt for The Secret Vault CTF
+
+User-agent: *
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /*.bak
+Disallow: /vault_secret_area_x9k2p.php.bak
+
+# Note to developers: Remove backup files before going live!
+# Found sensitive files in directory:
+# - vault_secret_area_x9k2p.php.bak (contains dev secrets)
+
+Sitemap: /sitemap.xml
