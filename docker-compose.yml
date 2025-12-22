@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  jwt-ctf:
+    build: .
+    container_name: jwt_ctf_challenge
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+    volumes:
+      # Mount logs for monitoring (optional)
+      - ./logs:/var/log/apache2
+    networks:
+      - ctf_network
+    labels:
+      - "ctf.name=jwt-secret-vault"
+      - "ctf.difficulty=medium-hard"
+      - "ctf.category=web"
+
+networks:
+  ctf_network:
+    driver: bridge
+
+# Optional: Add a simple monitoring service
+# Uncomment below if you want basic monitoring
+
+# volumes:
+#   logs:
+#     driver: local
