@@ -82,7 +82,7 @@ chmod 644 *.bak
 http://localhost/jwt_ctf/index.php
 ```
 
-## 🎮 How to Play
+# 🎮 How to Play
 
 ### Stage 1 Solution Path:
 1. Open `index.php` in browser
