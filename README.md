@@ -166,7 +166,7 @@ The challenge includes progressive hints:
 
 ## 👨‍💻 Author
 
-- **Your Name** <a href="https://github.com/yourusername" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=github" alt="github" width="20" height="20"/> </a>
+- **KpolitX** <a href="https://github.com/yourusername" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=github" alt="github" width="20" height="20"/> </a>
 - LinkedIn <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="linkedin" width="20" height="20"/> </a>
 - Instagram <a href="https://www.instagram.com/yourusername/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=instagram" alt="instagram" width="20" height="20"/> </a>
 
